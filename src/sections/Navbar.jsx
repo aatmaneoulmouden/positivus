@@ -5,7 +5,7 @@ import { navlinks } from "../data";
 import { useState } from "react";
 
 const MobileMenu = ({ menu }) => (
-  <div className="mobile-menu absolute top-full left-5 right-5 flex flex-col gap-5 p-6 rounded-[30px] shadow-base border border-dark bg-white lg:hidden">
+  <div className="slide-top mobile-menu absolute top-full left-5 right-5 flex flex-col gap-5 p-6 rounded-[30px] shadow-base border border-dark bg-white lg:hidden">
     <ul className="flex flex-col items-center gap-5">{menu}</ul>
     <Button
       role="button"
