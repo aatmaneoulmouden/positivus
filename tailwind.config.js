@@ -5,7 +5,23 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "20px",
+        lg: "100px",
+      }
+    },
+    fontFamily: {
+      base: ["Space Grotesk", "sans-serif"],
+    },
+    extend: {
+      colors: {
+        primary: "#B9FF66",
+        dark: "#191A23",
+        light: "#F3F3F3",
+      }
+    },
   },
   plugins: [],
 }
