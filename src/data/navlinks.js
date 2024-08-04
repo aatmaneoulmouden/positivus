@@ -1,4 +1,4 @@
-export const navlinks = [
+const navlinks = [
     {
         title: "About us",
         section: "aboutus",
@@ -19,4 +19,6 @@ export const navlinks = [
         title: "Contact",
         section: "contactus",
     },
-]
+];
+
+export default navlinks;

@@ -1,6 +1,6 @@
 import { amazon, dribbble, hubspot, netflix, notion, zoom } from "../assets";
 
-export const partners = [
+const partners = [
     {
         name: "Amazon",
         logo: amazon,
@@ -25,4 +25,6 @@ export const partners = [
         name: "Zoom",
         logo: zoom,
     },
-]
+];
+
+export default partners;

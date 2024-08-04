@@ -1,6 +1,6 @@
 import { brianWilliams, emilyJohnson, janeDoe, johnSmith, michaelBrown, sarahKim } from "../assets";
 
-export const members = [
+const members = [
     {
         image: johnSmith,
         name: "John Smith",
@@ -43,4 +43,6 @@ export const members = [
         summary: "2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries",
         linkedInProfile: "https://www.linkedin.com/"
     },
-]
+];
+
+export default members; 

@@ -1,4 +1,4 @@
-export const process = [
+const process = [
     {
         index: "01",
         title: "Consultation",
@@ -29,4 +29,6 @@ export const process = [
         title: "Continual Improvement",
         description: "Our commitment to excellence means we never stop striving for better results. We continually assess and refine our strategies, incorporating feedback and new trends to enhance performance and drive ongoing success for your business.",
     },
-]
+];
+
+export default process;

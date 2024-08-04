@@ -1,4 +1,4 @@
-export const cases = [
+const cases = [
     {
         description: "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
         link: "/"
@@ -11,4 +11,6 @@ export const cases = [
         description: "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
         link: "/"
     }
-]
+];
+
+export default cases;

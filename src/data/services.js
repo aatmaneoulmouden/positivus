@@ -1,6 +1,6 @@
 import { advertising, analyticsTracking, contentCreation, emailMarketing, seo, socialMediaMarketing } from "../assets"
 
-export const services = [
+const services = [
     {
         title: "Search Engine Optimization",
         image: seo,
@@ -31,4 +31,6 @@ export const services = [
         image: analyticsTracking,
         link: "/",
     },
-]
+];
+
+export default services;
