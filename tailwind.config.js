@@ -9,13 +9,17 @@ export default {
       center: true,
       padding: {
         DEFAULT: "20px",
-        lg: "100px",
+        lg: "60px",
+        xl: "100px",
       }
     },
     fontFamily: {
       base: ["Space Grotesk", "sans-serif"],
     },
     extend: {
+      boxShadow: {
+        'base': '0px 6px 0px 0px #191A23',
+      },
       colors: {
         green: "#B9FF66",
         dark: "#191A23",
