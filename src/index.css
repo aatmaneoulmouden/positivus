@@ -6,6 +6,6 @@
 
 @layer base {
     body {
-        @apply font-base;
+        @apply font-base text-xl;
     }
 }
