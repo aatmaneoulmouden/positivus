@@ -20,12 +20,12 @@ const App = () => {
       <Partners />
       <Services />
       <Cta />
-      <CaseStudies />
+      {/* <CaseStudies />
       <WorkingProcess />
       <Team />
       <Testimonials />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
