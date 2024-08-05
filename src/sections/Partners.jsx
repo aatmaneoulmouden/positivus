@@ -52,7 +52,7 @@ const Partners = () => {
           {displayPartners}
         </div>
       </div>
-      <div className="mobile-logos block lg:hidden">
+      <div className="mobile-logos block lg:hidden mt-[30px]">
         <div className="mb-5">
           <Splide extensions={{ AutoScroll }} options={splideOptions}>
             {displayFirstTreePartners}
