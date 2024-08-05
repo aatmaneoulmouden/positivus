@@ -12,6 +12,10 @@
     .container {
         @apply max-w-full;
     }
+
+    .section {
+        @apply py-[70px];
+    }
 }
 
 @layer components {
@@ -41,6 +45,24 @@
         100% {
             -webkit-transform: translateY(0);
             transform: translateY(0);
+        }
+    }
+
+
+    /* Partners section */
+    .slide-left {
+        animation: slide-left 20s linear infinite;
+    }
+
+    @keyframes slide-left {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+
+        100% {
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
         }
     }
 
