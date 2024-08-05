@@ -6,6 +6,7 @@ import {
   Header,
   Navbar,
   Partners,
+  Services,
   Team,
   Testimonials,
   WorkingProcess,
@@ -17,6 +18,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Partners />
+      <Services />
       <Cta />
       <CaseStudies />
       <WorkingProcess />
