@@ -4,7 +4,7 @@ import { Button } from "../components";
 const Header = () => {
   return (
     <header>
-      <div className="container  max-w-full">
+      <div className="container max-w-full">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1 flex flex-col items-start lg:gap-9">
             <h1 className="text-[40px] lg:text-6xl font-medium max-w-full lg:max-w-[508px] leading-[50px] lg:leading-[70px] mb-2 lg:mb-0">

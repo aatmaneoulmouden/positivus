@@ -7,7 +7,7 @@ const Services = () => {
   ));
   return (
     <section className="section">
-      <div className="container  max-w-full">
+      <div className="container max-w-full">
         <Heading
           title="Services"
           subtitle="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
