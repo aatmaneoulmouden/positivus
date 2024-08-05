@@ -4,7 +4,7 @@ import { Button } from "../components";
 const Cta = () => {
   return (
     <section className="section">
-      <div className="container">
+      <div className="container  max-w-full">
         <div className="flex bg-gray p-[50px] lg:p-[60px] rounded-[45px]">
           <div className="flex-1 flex flex-col gap-6">
             <h3 className="text-[26px] lg:text-3xl font-medium">Let’s make things happen</h3>

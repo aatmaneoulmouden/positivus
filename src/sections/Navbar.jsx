@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav className="py-7 lg:py-14 relative">
-      <div className="container">
+      <div className="container max-w-full">
         <div className="flex justify-between items-center">
           <a href="">
             <img

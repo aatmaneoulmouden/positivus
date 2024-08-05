@@ -9,10 +9,6 @@
         @apply font-base text-xl;
     }
 
-    .container {
-        @apply max-w-full;
-    }
-
     .section {
         @apply py-[30px] lg:py-[70px];
     }

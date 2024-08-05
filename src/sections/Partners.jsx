@@ -47,7 +47,7 @@ const Partners = () => {
 
   return (
     <section className="section">
-      <div className="container">
+      <div className="container  max-w-full">
         <div className="desktop-logos hidden lg:flex justify-between items-center flex-wrap">
           {displayPartners}
         </div>
