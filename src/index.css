@@ -14,8 +14,15 @@
     }
 
     .section {
-        @apply py-[70px];
+        @apply py-[30px] lg:py-[70px];
     }
+
+    /***** Services section *****/ 
+    .service-title span {
+        @apply w-fit block rounded-md p-1 text-[26px] lg:text-3xl font-medium;
+    }
+    /***** End Services section *****/
+    
 }
 
 @layer components {
