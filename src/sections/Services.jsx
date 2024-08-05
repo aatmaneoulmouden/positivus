@@ -11,6 +11,7 @@ const Services = () => {
         <Heading
           title="Services"
           subtitle="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
+          paragraphWidth="lg:max-w-[580px]"
         />
         <div className="content-wrapper mt-10 lg:mt-20 grid grid-cols-1 gap-[30px] lg:gap-10 lg:grid-cols-2">
           {displayServices}
