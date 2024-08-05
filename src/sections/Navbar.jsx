@@ -48,6 +48,7 @@ const Navbar = () => {
               type="outline"
               scrollto="contactus"
               label="Request a quote"
+              classes="hidden xl:block"
             />
           </div>
 
