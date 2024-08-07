@@ -1,4 +1,4 @@
-const process = [
+const workingProcess = [
     {
         index: "01",
         title: "Consultation",
@@ -31,4 +31,4 @@ const process = [
     },
 ];
 
-export default process;
+export default workingProcess;
