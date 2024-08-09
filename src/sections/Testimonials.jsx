@@ -35,7 +35,7 @@ const Testimonials = () => {
           subtitle="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
           paragraphWidth="lg:max-w-[473px]"
         />
-        <div className="content-wrapper mt-10 lg:mt-20 bg-dark text-white py-[70px] rounded-[70px]">
+        <div className="content-wrapper mt-10 lg:mt-20 bg-dark text-white py-[70px] rounded-[45px]">
           <Splide hasTrack={false} options={splideOptions}>
             <SplideTrack>{displayTestimonials}</SplideTrack>
           </Splide>
