@@ -13,12 +13,71 @@
         @apply py-[30px] lg:py-[70px];
     }
 
-    /***** Services section *****/ 
+    /***** Services section *****/
     .service-title span {
         @apply w-fit block rounded-md p-1 text-[26px] lg:text-3xl font-medium;
     }
+
     /***** End Services section *****/
-    
+
+    /***** Contact section *****/
+    label {
+        @apply cursor-pointer;
+    }
+
+    .radio-label {
+        @apply text-base lg:text-lg;
+    }
+
+    .radio-button {
+        @apply relative mr-6;
+        cursor: pointer;
+    }
+
+    .radio-button::before,
+    .radio-button::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 28px;
+        height: 28px;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .radio-button::after {
+        width: 16px;
+        height: 16px;
+        background: #B9FF66;
+        border: none;
+        display: none;
+    }
+
+    .radio-button:checked::before {
+        border: 1px solid black;
+    }
+
+    .radio-button:checked::after {
+        display: block;
+    }
+
+    .input-wrapper:not(:last-child):not(:first-child) {
+        @apply mb-5 lg:mb-[25px];
+    }
+
+    .block-label {
+        @apply block text-sm lg:text-base text-black mb-[10px] lg:mb-[5px];
+    }
+
+    .field {
+        @apply bg-white text-dark border border-black rounded-[14px] px-5 lg:px-5 py-3 w-full outline-none text-base lg:text-lg;
+    }
+
+    /***** End Contact section *****/
+
+
 }
 
 @layer components {
