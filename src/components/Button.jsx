@@ -1,4 +1,4 @@
-const Button = ({ role = "button", type, scrollto, label, classes = "" }) => {
+const Button = ({ role = "button", type, scrollto = "", label, classes = "" }) => {
   let buttonClassNames;
   if (type === "primary") {
     buttonClassNames = "text-black border-green bg-green";
