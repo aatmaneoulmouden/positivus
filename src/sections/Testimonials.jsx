@@ -21,7 +21,7 @@ const Testimonials = () => {
     arrows: false,
     breakpoints: {
       768: {
-        gap: "30px",
+        gap: "60px",
         fixedWidth: "330px",
       },
     },
