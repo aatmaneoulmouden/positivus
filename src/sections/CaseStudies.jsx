@@ -46,6 +46,7 @@ const CaseStudies = () => {
             arrows: false,
             pagination: false,
             fixedWidth: "360px",
+            focus: "center",
           }}
         >
           {displayCasesInMobile}
