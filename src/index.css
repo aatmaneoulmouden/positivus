@@ -83,7 +83,7 @@
     }
 
     .contact-info-list li {
-        @apply text-lg text-white;
+        @apply text-base lg:text-lg text-white;
     }
     /***** End Footer section *****/
     
