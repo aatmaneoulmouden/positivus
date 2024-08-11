@@ -25,7 +25,7 @@ const CaseStudies = () => {
     </SplideSlide>
   ));
   return (
-    <section className="section">
+    <section className="section" id="casstudies-section">
       <div className="in-desktop hidden lg:block">
         <div className="container max-w-full">
           <Heading

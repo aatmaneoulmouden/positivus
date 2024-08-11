@@ -18,7 +18,7 @@ const WorkingProcess = () => {
     />
   ));
   return (
-    <section className="section">
+    <section className="section" id="process-section">
       <div className="container max-w-full">
         <Heading
           title="Our Working Process"

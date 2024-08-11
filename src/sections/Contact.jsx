@@ -3,7 +3,7 @@ import { contact } from "../assets";
 
 const Contact = () => {
   return (
-    <section className="section">
+    <section className="section" id="contactus-section">
       <div className="container max-w-full">
         <Heading
           title="Contact Us"

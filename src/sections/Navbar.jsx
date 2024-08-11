@@ -17,8 +17,23 @@ const MobileMenu = ({ menu }) => (
 );
 
 const Navbar = () => {
+  const scrollToSection = (sectionId) => {
+    const targetedSection = document.querySelector(`#${sectionId}-section`);
+
+    window.scrollTo({
+      top: targetedSection.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   const displayNavLinks = navlinks.map((link, index) => (
-    <li key={index} data-scrollto={link.section} className="cursor-pointer">
+    <li
+      key={index}
+      className="cursor-pointer"
+      onClick={() => {
+        scrollToSection(link.section);
+      }}
+    >
       {link.title}
     </li>
   ));

@@ -6,7 +6,7 @@ const Services = () => {
     <ServiceCard key={index} {...service} />
   ));
   return (
-    <section className="section">
+    <section className="section" id="services-section">
       <div className="container max-w-full">
         <Heading
           title="Services"

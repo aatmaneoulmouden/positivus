@@ -3,7 +3,7 @@ import { Button } from "../components";
 
 const Header = () => {
   return (
-    <header>
+    <header id="aboutus-section">
       <div className="container max-w-full">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1 flex flex-col items-start lg:gap-9">

@@ -4,11 +4,22 @@ import { navlinks } from "../data";
 import { Button } from "../components";
 
 const Footer = () => {
+  const scrollToSection = (sectionId) => {
+    const targetedSection = document.querySelector(`#${sectionId}-section`);
+
+    window.scrollTo({
+      top: targetedSection.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   const displayNavLinks = navlinks.map((link, index) => (
     <li
       key={index}
-      data-scrollto={link.section}
       className="cursor-pointer lg:underline text-lg font-light"
+      onClick={() => {
+        scrollToSection(link.section);
+      }}
     >
       {link.title}
     </li>
@@ -152,9 +163,7 @@ const Footer = () => {
           </ul>
           <div className="bottom pt-9 border-t border-white flex flex-col gap-[15px] text-base text-white text-center">
             <p>&copy; 2024 Positivus. All Rights Reserved.</p>
-            <a href="">
-              Privacy Policy
-            </a>
+            <a href="">Privacy Policy</a>
           </div>
         </div>
       </div>
