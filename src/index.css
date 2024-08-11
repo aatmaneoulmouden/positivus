@@ -77,6 +77,17 @@
 
     /***** End Contact section *****/
 
+    /***** Footer section *****/ 
+    .social-link {
+        @apply w-[30px] h-[30px] bg-white rounded-full flex justify-center items-center;
+    }
+
+    .contact-info-list li {
+        @apply text-lg text-white;
+    }
+    /***** End Footer section *****/
+    
+
 
 }
 

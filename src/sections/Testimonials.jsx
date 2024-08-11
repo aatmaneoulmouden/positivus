@@ -22,7 +22,7 @@ const Testimonials = () => {
     breakpoints: {
       768: {
         gap: "30px",
-        fixedWidth: "320px",
+        fixedWidth: "330px",
       },
     },
   };
